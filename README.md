@@ -9,33 +9,33 @@ This script saves the correlation matrix between different features as jpg file 
 # how to run
 Place the NN02_PK.py and *.csv file in the same folder or change the path of the file in the script
 
-** python NN02_PK.py **
+**python NN02_PK.py**
 
 
-*NOTE:Here the script with only two important features RM and LSTAT, as found by data exploration. 
-Other features can be included but uncommenting the line 39 in the script and commenting the line 38*
+**NOTE:Here the script with only two important features RM and LSTAT, as found by data exploration. 
+Other features can be included but uncommenting the line 39 in the script and commenting the line 38**
 
 
 
 # Explanation of gradient descent
 
 If we have a simple linear equation such as y= w1x1 +w2x2 as shown in below figure 
-![y](C:\Users\pruthvi\Desktop\Roche\Question02\Figures\y.png) 
+![y](https://github.com/kspruthviraj/Gradient-descent/blob/master/y.png) 
 
 We have to find w1 and w2 when x1, x2 and y are given such that the above equation is true.
 If we simply guess the value of w1 and w2, then we would get y but might not be equal to the original y. Let's call this as y_hat
-![y-hat](C:\Users\pruthvi\Desktop\Roche\Question02\Figures\y_hat.png) 
+![y-hat](https://github.com/kspruthviraj/Gradient-descent/blob/master/y_hat.png) 
 
 We can calulate how much the new y_hat, that was found by guessing w1 and w2, differs from the original y.
 To do this we introduce cost, where cost=0.5*(y-y_hat)^2
-![cost](C:\Users\pruthvi\Desktop\Roche\Question02\Figures\cost.png) 
+![cost](https://github.com/kspruthviraj/Gradient-descent/blob/master/cost.png) 
 
 Now, our objective is to minimize this cost. By simply differentiating cost with respect to w1 and w2 we get gradients.
-![Gradients](C:\Users\pruthvi\Desktop\Roche\Question02\Figures\Gradients.png) 
+![Gradients](https://github.com/kspruthviraj/Gradient-descent/blob/master/Gradients.png) 
 
 Now to find w1 and w2 where the cost reaches to minimum, we start taking small steps towards the direction of minima.
 This is nothing but gradient descent
-![Gradient_descent](C:\Users\pruthvi\Desktop\Roche\Question02\Figures\Gradient_descent.png) 
+![Gradient_descent](https://github.com/kspruthviraj/Gradient-descent/blob/master/Gradient_descent.png) 
 
 This is looped over different epochs.
 
