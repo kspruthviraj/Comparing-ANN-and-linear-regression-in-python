@@ -1,5 +1,5 @@
-# Gradient-descent
-# Python script 
+# Compare outputs of single neuron (Gradient-descent) and simple linear regression
+## Using Python script 
 
 A script that runs gradient descent algorithm on single neuron and compares RMSE with normal linear regression model
 
