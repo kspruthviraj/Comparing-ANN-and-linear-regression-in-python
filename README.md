@@ -12,8 +12,8 @@ Place the NN02_PK.py and *.csv file in the same folder or change the path of the
 ** python NN02_PK.py **
 
 
-# NOTE:Here the script with only two important features RM and LSTAT, as found by data exploration. 
-Other features can be included but uncommenting the line 39 in the script and commenting the line 38
+*NOTE:Here the script with only two important features RM and LSTAT, as found by data exploration. 
+Other features can be included but uncommenting the line 39 in the script and commenting the line 38*
 
 
 
@@ -42,32 +42,18 @@ This is looped over different epochs.
 
 # Sample output from ipython
 
-################### second section################################
 #### Build single neuron with Gradient descent algorithm #########
 epoch :0 cost:45170.756384
 epoch :5000 cost:6116.193370
 epoch :10000 cost:6116.193370
 Single neuron RMSE on train data is 5.502561676233308
 Single neuron RMSE on test data is 5.6642524724292835
-################### Third section ####################################
+
 ################### Linear regression ################################
 Linear regression RMSE on train data is 5.5025616762333085
 Linear regression RMSE on test data is 5.664252472426871
-################### Fourth section ####################################
-################### Compare models ####################################
 
 
 The RMSE of the single neuron with Gradient descent algorithm is quite similar to Linear regression.
-
-
-
-
-
-
-
-
-
-
-
 
 
